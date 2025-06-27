@@ -1,14 +1,3 @@
-// export default function MenuBar() {
-//     const items = ["Media", "Playback", "Audio", "Video", "Subtitle", "Tools", "View", "Help"];
-//     return (
-//       <div className="bg-gray-100 text-sm px-4 py-2 border-b flex space-x-6">
-//         {items.map((item) => (
-//           <span key={item} className="cursor-pointer hover:underline">{item}</span>
-//         ))}
-//       </div>
-//     );
-//   }
-  
 import React, { useState } from "react";
 
 export default function MenuBar() {
